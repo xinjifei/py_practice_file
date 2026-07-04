@@ -1,0 +1,6 @@
+{
+    "source_path": "D:/PY_practice_file/练习/2综合数据管道实战/7_配置文件抽离/source_1.csv",
+    "sma_length": 10,
+    "ema_length": 20,
+    "output_path": "D:/PY_practice_file/练习/2综合数据管道实战/7_配置文件抽离/result.csv"
+}

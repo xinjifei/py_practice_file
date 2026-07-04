@@ -1,0 +1,11 @@
+[project]
+name = "k-line"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.18.64",
+    "mplfinance>=0.12.10b0",
+    "pandas>=2.3.3",
+]

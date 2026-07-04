@@ -1,0 +1,3 @@
+因错误而跳过处理的文件
+：第4个文件处理失败，失败原因=No numeric types to aggregate，处理失败的文件共有1
+

@@ -1,0 +1,6 @@
+   close  RSI_7  RSI_14  DIF  DEA  HIST
+0   9.75    NaN     NaN  NaN  NaN   NaN
+1  10.63    NaN     NaN  NaN  NaN   NaN
+2  11.12    NaN     NaN  NaN  NaN   NaN
+3  11.34    NaN     NaN  NaN  NaN   NaN
+4  10.56    NaN     NaN  NaN  NaN   NaN

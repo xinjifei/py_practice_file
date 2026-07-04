@@ -1,0 +1,4 @@
+文件清洗记录：
+文件路径=D:/PY_practice_file\练习/2综合数据管道实战/1本地数据源批量读取脚本编写\source_1.csv，清洗成功，处理后的文件存放路径=D:/PY_practice_file/练习/2综合数据管道实战/2多文件数据清洗流水线/result/cleaned_csv/result_1.csv
+文件路径=D:/PY_practice_file\练习/2综合数据管道实战/1本地数据源批量读取脚本编写\source_2.csv，清洗成功，处理后的文件存放路径=D:/PY_practice_file/练习/2综合数据管道实战/2多文件数据清洗流水线/result/cleaned_csv/result_2.csv
+文件路径=D:/PY_practice_file\练习/2综合数据管道实战/1本地数据源批量读取脚本编写\source_3.csv，清洗成功，处理后的文件存放路径=D:/PY_practice_file/练习/2综合数据管道实战/2多文件数据清洗流水线/result/cleaned_csv/result_3.csv

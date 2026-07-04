@@ -1,0 +1,21 @@
+{
+    "file_list": [
+        {
+            "xiaoshu": "D:\\xiaoshu"
+        },
+        {
+            "lianxi": "D:\\PY_practice_file\\练习"
+        },
+        {
+            "fanqiang3": "D:\\EdgeGo2026年1月9日无故障\\3.hysteria翻墙.cmd"
+        }
+    ],
+    "run_list": [
+        {
+            "huanjingbianliang": "rundll32 sysdm.cpl,EditEnvironmentVariables"
+        },
+        {
+            "p": "start powershell"
+        }
+    ]
+}

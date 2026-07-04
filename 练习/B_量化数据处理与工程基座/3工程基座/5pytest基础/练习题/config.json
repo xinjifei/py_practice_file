@@ -1,0 +1,9 @@
+{
+    "input_dir": "./练习题/test_data",
+    "output_dir": "./output/",
+    "sma5": 5,
+    "sma10": 10,
+    "ema20": 20,
+    "rsi7": 7,
+    "rsi14": 14
+}

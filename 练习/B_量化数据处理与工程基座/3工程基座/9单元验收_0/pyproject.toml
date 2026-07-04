@@ -1,0 +1,72 @@
+[project]
+name = "quant-pipeline"
+version = "0.1.0"
+description = "量化数据流水线：读取 CSV → 清洗 → 计算技术指标 → 合并输出"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3.3",
+    "pandas-ta-classic>=0.6.20",
+]
+
+[project.scripts]
+pipeline = "quant_pipeline.pipeline:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["quant_pipeline"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.15.16",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D203",   # no-blank-line-before-class — 与 D211 冲突
+    "D212",   # multi-line-summary-first-line — 与 D213 冲突
+    "D213",   # multi-line-summary-second-line — 允许单行 docstring
+    "TRY003", # raise-vanilla-args — 学习阶段不过度约束
+    "EM101",  # raw-string-in-exception — 同上
+    "FBT001", # bool-positional-arg-in-function — 学习阶段可以接受
+    "FBT002", # bool-default-positional-arg-in-function
+    "S101",   # assert — pytest 测试中正常使用
+    "COM812", # missing-trailing-comma — 与 formatter 冲突
+    "RUF001", # ambiguous-unicode-string — 中文用户界面文字
+    "RUF002", # ambiguous-unicode-docstring — 中文文档
+    "RUF003", # ambiguous-unicode-comment — 中文注释
+    "D415",   # first-line-punctuation — 中文句号 ruff 不识别
+    "DTZ",    # datetime-timezone — 学习阶段使用本地时间
+    "PTH",    # pathlib 建议 — 学习阶段保持简单 os.path
+    "N802",   # invalid-function-name — 中文测试函数名
+    "PLC2401", # non-ascii-name — 中文变量名/函数名
+    "ANN",    # missing-type-annotation — 测试函数不需要
+    "PLR0913", # too-many-arguments — 学习阶段可接受
+    "PLR0912", # too-many-branches — 学习阶段可接受
+    "PLR2004", # magic-value-comparison — 测试中正常
+    "C901",   # too-complex — 学习阶段适度容忍
+    "PT",     # pytest 风格 — 保持当前写法
+    "SLF",    # private-member-access — 测试中可能需要
+    "RET504", # unnecessary-assignment — 多步清洗链式分配更清晰
+    "PERF203", # try-except-in-loop — 每个文件独立处理是设计需求
+    "PLC0415", # import-outside-top-level — 测试中动态导入
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-v", "--tb=short"]

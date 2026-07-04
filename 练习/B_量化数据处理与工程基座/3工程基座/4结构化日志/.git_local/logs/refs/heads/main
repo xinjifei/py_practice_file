@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 3e323e178d2ca51c1a267ac6280b9d8fa3e3b879 lchh314 <lchh314@hotmail.com> 1779746295 +0800	commit (initial): feat:初始化环境
+3e323e178d2ca51c1a267ac6280b9d8fa3e3b879 4ce31914f8ea045f135bb19cdc61bc230f26bc74 lchh314 <lchh314@hotmail.com> 1779747309 +0800	commit: add:说明书#D:\PY_practice_file\练习\3工程基座\4结构化日志\note.py#
+4ce31914f8ea045f135bb19cdc61bc230f26bc74 099df3ef9e2ee07f6907a967b53dd3462d7e3c8f lchh314 <lchh314@hotmail.com> 1779777962 +0800	commit: add：示例代码
+099df3ef9e2ee07f6907a967b53dd3462d7e3c8f 4834716d79a4823436c306bd16ecd8c592bb34df lchh314 <lchh314@hotmail.com> 1779778470 +0800	commit: add：示例代码
+4834716d79a4823436c306bd16ecd8c592bb34df c29a23b677ddded28ad54b9121cc48ec2557e752 lchh314 <lchh314@hotmail.com> 1779779367 +0800	commit: fix：main.py run success
+c29a23b677ddded28ad54b9121cc48ec2557e752 9164121eae0a001fac42acd9660a270116c20d1a lchh314 <lchh314@hotmail.com> 1779796123 +0800	commit: add:练习完成_1
+9164121eae0a001fac42acd9660a270116c20d1a 9164121eae0a001fac42acd9660a270116c20d1a lchh314 <lchh314@hotmail.com> 1779801064 +0800	Branch: renamed refs/heads/master to refs/heads/main
+9164121eae0a001fac42acd9660a270116c20d1a fab3b635ace06f4c16d27809894a436502553e86 lchh314 <lchh314@hotmail.com> 1779883066 +0800	pull origin main --rebase (finish): refs/heads/main onto 23afe2874c9e0fbe21c0801d3d0107f9c8f93b8c

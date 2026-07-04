@@ -1,0 +1,4 @@
+文件读取记录：
+文件路径=D:\PY_practice_file\练习/1本地数据源批量读取脚本编写\source_1.csv，读取成功
+文件路径=D:\PY_practice_file\练习/1本地数据源批量读取脚本编写\source_2.csv，读取成功
+文件路径=D:\PY_practice_file\练习/1本地数据源批量读取脚本编写\source_3.csv，读取成功

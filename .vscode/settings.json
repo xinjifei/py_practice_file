@@ -1,0 +1,22 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "练习/1技术指标生成/震荡与动量指标批量生成",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "folder-customization.folders": [
+        {
+            "path": "PY_practice_file\\练习\\3_数据可视化强化\\1_缓冲与复习\\"
+        },
+        {
+            "path": "PY_practice_file\\练习\\3_数据可视化强化\\d53_matplotlib子图显示\\"
+        },
+        {
+            "path": "PY_practice_file\\练习\\3_数据可视化强化\\d54_交互式图表\\",
+            "color": "foldercustomization.AnsiColor14"
+        }
+    ]
+}

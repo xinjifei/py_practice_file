@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 485889e3d5efd10f29229ddf588fc1c91a962a3b lchh314 <lchh314@hotmail.com> 1779885467 +0800	commit (initial): add:添加开发环境（.venv add）
+485889e3d5efd10f29229ddf588fc1c91a962a3b a71108b4f9fcfdaad72155eaaf95b958757b9c9b lchh314 <lchh314@hotmail.com> 1779886891 +0800	commit: change:增加了README.md的说明文本
+a71108b4f9fcfdaad72155eaaf95b958757b9c9b a71108b4f9fcfdaad72155eaaf95b958757b9c9b lchh314 <lchh314@hotmail.com> 1779887034 +0800	Branch: renamed refs/heads/master to refs/heads/main
+a71108b4f9fcfdaad72155eaaf95b958757b9c9b 4379a63ef4d7372a539d269c3f58b8ec80fb5928 lchh314 <lchh314@hotmail.com> 1780052017 +0800	commit: fix:修正项目结构，添加测试数据，更新配置

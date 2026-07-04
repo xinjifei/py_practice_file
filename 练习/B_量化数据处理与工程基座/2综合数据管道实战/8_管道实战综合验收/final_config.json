@@ -1,0 +1,9 @@
+{
+    "input_dir": "D:/PY_practice_file/练习/2综合数据管道实战/练习用数据源",
+    "output_dir": "D:/PY_practice_file/练习/2综合数据管道实战/8_管道实战综合验收/output",
+    "sma_s": 5,
+    "sma_l": 10,
+    "ema": 20,
+    "rsi_s": 7,
+    "rsi_l": 14
+}

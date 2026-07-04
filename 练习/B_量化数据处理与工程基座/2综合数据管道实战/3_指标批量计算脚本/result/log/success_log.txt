@@ -1,0 +1,4 @@
+success:
+处理成功，处理后文件保存路径D:/PY_practice_file/练习/2综合数据管道实战/3_指标批量计算脚本/result/indictors/1_after_calk.csv
+处理成功，处理后文件保存路径D:/PY_practice_file/练习/2综合数据管道实战/3_指标批量计算脚本/result/indictors/2_after_calk.csv
+处理成功，处理后文件保存路径D:/PY_practice_file/练习/2综合数据管道实战/3_指标批量计算脚本/result/indictors/3_after_calk.csv
