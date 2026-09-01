@@ -1,0 +1,10 @@
+[project]
+name = "stock-puller"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.18.64",
+    "matplotlib>=3.10.9",
+]
