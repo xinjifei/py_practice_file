@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>破茧 · 今日信息总结</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+    h1 { font-size: 22px; }
+    .summary { background: #f6f7f8; padding: 16px 20px; border-radius: 8px; }
+    .summary h1, .summary h2, .summary h3 { font-size: 15px; margin: 12px 0 6px; }
+    .summary ul, .summary ol { margin: 6px 0; padding-left: 20px; }
+    .summary li { margin-bottom: 4px; }
+    .summary p { margin: 6px 0; }
+    .articles { margin-top: 32px; }
+    .articles h2 { font-size: 16px; }
+    .articles ol { padding-left: 20px; }
+    .articles li { margin-bottom: 10px; }
+    .articles a { color: #06c; text-decoration: none; }
+    .articles a:hover { text-decoration: underline; }
+    .nav { margin-bottom: 20px; }
+    .nav a { color: #06c; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="nav"><a href="/compare">→ 功能2：同一条新闻，两个世界</a></div>
+  <h1>破茧 · 今日信息总结</h1>
+  <div class="summary">{{ summary|safe }}</div>
+  <div class="articles">
+    <h2>原始文章（{{ articles|length }} 条）</h2>
+    <ol>
+      {% for a in articles %}
+      <li><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+</body>
+</html>

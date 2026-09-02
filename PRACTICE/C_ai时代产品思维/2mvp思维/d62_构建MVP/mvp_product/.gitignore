@@ -1,0 +1,10 @@
+# 别把 key 提交进 git
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/

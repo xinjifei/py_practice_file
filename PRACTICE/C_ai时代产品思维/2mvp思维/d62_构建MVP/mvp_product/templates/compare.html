@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>破茧 · 同一条新闻，两个世界</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 1000px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+    .nav { margin-bottom: 20px; }
+    .nav a { color: #06c; text-decoration: none; }
+    h1 { font-size: 22px; }
+    .conclusion { background: #fff4e5; border-left: 4px solid #f90; padding: 16px 20px; border-radius: 6px; margin: 20px 0 32px; }
+    .conclusion h1, .conclusion h2, .conclusion h3 { font-size: 15px; margin: 12px 0 6px; }
+    .conclusion ul, .conclusion ol { margin: 6px 0; padding-left: 20px; }
+    .conclusion li { margin-bottom: 4px; }
+    .conclusion p { margin: 6px 0; }
+    .cols { display: flex; gap: 24px; }
+    .col { flex: 1; min-width: 0; }
+    .col h2 { font-size: 16px; padding-bottom: 6px; border-bottom: 2px solid #ddd; }
+    .col.left h2 { border-color: #06c; }
+    .col.right h2 { border-color: #c00; }
+    .col ol { padding-left: 18px; font-size: 14px; }
+    .col li { margin-bottom: 8px; }
+    .col a { color: inherit; text-decoration: none; }
+    .col a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="nav"><a href="/">← 回功能1：单源总结</a></div>
+  <h1>同一条新闻，两个世界</h1>
+  <div class="conclusion">{{ result|safe }}</div>
+  <div class="cols">
+    <div class="col left">
+      <h2>{{ left_name }}（源 A）</h2>
+      <ol>{% for a in left %}<li><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a></li>{% endfor %}</ol>
+    </div>
+    <div class="col right">
+      <h2>{{ right_name }}（源 B）</h2>
+      <ol>{% for a in right %}<li><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a></li>{% endfor %}</ol>
+    </div>
+  </div>
+</body>
+</html>
