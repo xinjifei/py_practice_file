@@ -3,7 +3,7 @@
     "commands":{
         "git":{
             "提交修改":"git commit -m '<text:commit message>'",
-            
+            "撤回上一次提交（不动代码）":"git reset HEAD~1",
             "新建分支":"git chechout -b <new branch name>",
             "切换分支":"git chechout <object branch name>",
             "压缩合并分支":"git chechout <object branch name>"
