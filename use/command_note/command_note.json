@@ -4,11 +4,16 @@
         "git":{
             "提交修改":"git commit -m '<text:commit message>'",
             "撤回上一次提交（不动代码）":"git reset HEAD~1",
+            "查看已设置的远程仓库名字": "git remote -v",
+            "新建远程仓库目标": "git remote add <new name> <project url>",
             "新建分支":"git chechout -b <new branch name>",
             "切换分支":"git chechout <object branch name>",
             "压缩合并分支":"git chechout <object branch name>"
-
             
+        },
+        "env":{
+            "新建全局用户环境变量":"[Environment]::SetEnvironmentVariable('<name>', 'value', 'User')",
+            "查看所有环境变量":"Get-ChildItem Env:"
         }
     }
 }
