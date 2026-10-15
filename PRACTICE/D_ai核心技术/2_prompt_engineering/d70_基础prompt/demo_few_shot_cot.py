@@ -68,15 +68,15 @@ prompt_2shot = f"""把菜谱文本转成 JSON。
 输入：{target}
 输出："""
 
-print("\n" + "=" * 50)
+print("\n" + "=" * 20)
 print("【0-shot】只说要 JSON，不给例子")
-print("=" * 50)
+print("=" * 20)
 out_0shot = ask(prompt_0shot)
 print(out_0shot)
 
-print("\n" + "=" * 50)
+print("\n" + "=" * 20)
 print("【2-shot】给两个例子，让它照着模仿")
-print("=" * 50)
+print("=" * 20)
 out_2shot = ask(prompt_2shot)
 print(out_2shot)
 
