@@ -1,0 +1,93 @@
+{
+  "documents": 10,
+  "chunks": 133,
+  "chunk_size_limit": 400,
+  "overlap": 60,
+  "avg_length": 354.9,
+  "min_length": 43,
+  "max_length": 400,
+  "per_doc": {
+    "r01_春风动力": {
+      "stock_name": "春风动力",
+      "chunks": 11,
+      "min": 144,
+      "max": 392,
+      "avg": 333.2
+    },
+    "r02_宝丰能源": {
+      "stock_name": "宝丰能源",
+      "chunks": 19,
+      "min": 192,
+      "max": 396,
+      "avg": 355.8
+    },
+    "r03_宝光股份": {
+      "stock_name": "宝光股份",
+      "chunks": 9,
+      "min": 358,
+      "max": 391,
+      "avg": 375.7
+    },
+    "r04_比音勒芬": {
+      "stock_name": "比音勒芬",
+      "chunks": 16,
+      "min": 111,
+      "max": 395,
+      "avg": 359
+    },
+    "r05_润本股份": {
+      "stock_name": "润本股份",
+      "chunks": 11,
+      "min": 185,
+      "max": 400,
+      "avg": 356.5
+    },
+    "r06_钧达股份": {
+      "stock_name": "钧达股份",
+      "chunks": 14,
+      "min": 291,
+      "max": 399,
+      "avg": 374.5
+    },
+    "r07_小商品城": {
+      "stock_name": "小商品城",
+      "chunks": 15,
+      "min": 179,
+      "max": 395,
+      "avg": 358
+    },
+    "r08_丽江股份": {
+      "stock_name": "丽江股份",
+      "chunks": 10,
+      "min": 63,
+      "max": 399,
+      "avg": 334.3
+    },
+    "r09_杰瑞股份": {
+      "stock_name": "杰瑞股份",
+      "chunks": 16,
+      "min": 87,
+      "max": 398,
+      "avg": 353.2
+    },
+    "r10_裕同科技": {
+      "stock_name": "裕同科技",
+      "chunks": 12,
+      "min": 43,
+      "max": 395,
+      "avg": 344
+    }
+  },
+  "length_buckets": {
+    "0-99": 3,
+    "100-199": 5,
+    "200-299": 4,
+    "300-399": 120,
+    "400": 1
+  },
+  "hard_cut_chunks": 0,
+  "alerts": [
+    "r08_丽江股份#009 只有 63 字",
+    "r10_裕同科技#011 只有 43 字"
+  ]
+}
