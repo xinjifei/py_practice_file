@@ -8,7 +8,8 @@
             "新建远程仓库目标": "git remote add <new name> <project url>",
             "新建分支":"git chechout -b <new branch name>",
             "切换分支":"git chechout <object branch name>",
-            "压缩合并分支":"git chechout <object branch name>"
+            "压缩合并分支":"git chechout <object branch name>",
+            "重命名分支":"git branch -M <new name>"
             
         },
         "env":{
