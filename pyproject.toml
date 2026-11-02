@@ -9,6 +9,7 @@ dependencies = [
     "chromadb>=1.5.9",
     "fastembed>=0.9.0",
     "numpy>=2.2.6",
+    "ollama>=0.6.3",
     "openai>=3.28.0",
     "pandas>=2.3.3",
     "plotly>=7.0.0",
