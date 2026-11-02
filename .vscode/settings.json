@@ -18,5 +18,7 @@
             "path": "PY_practice_file\\练习\\3_数据可视化强化\\d54_交互式图表\\",
             "color": "foldercustomization.AnsiColor14"
         }
-    ]
+    ],
+    "minecraftWorkbench.language": "zh-cn",
+    "minecraftWorkbench.memoryPercentage": 50
 }
