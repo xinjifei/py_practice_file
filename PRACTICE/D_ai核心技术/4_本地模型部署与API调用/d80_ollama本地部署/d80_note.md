@@ -57,7 +57,6 @@ python脚本或者终端无法直接运行大模型，需要一个中间的传�
 ```
 # 启动ollama服务
 ollama serve
-ollama
 # 安装模型到本地，类似于 uv add
 ollama pull <model id>
 # 终端运行大模型对话
